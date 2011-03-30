@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+	<photos>
+		<photo id="1">
+			<title><![CDATA[Church]]></title>
+			<tags><![CDATA[church sky sunny day bell blue white]]></tags>
+		</photo>
+		<photo id="2">
+			<title><![CDATA[Umbrella]]></title>
+			<tags><![CDATA[umbrella sand beach water sky green blue]]></tags>
+		</photo>
+		<photo id="3">
+			<title><![CDATA[Starfish]]></title>
+			<tags><![CDATA[starfish yellow white]]></tags>
+		</photo>
+		<photo id="4">
+			<title><![CDATA[Veneza]]></title>
+			<tags><![CDATA[veneza italy water bridge window windows]]></tags>
+		</photo>
+		<photo id="5">
+			<title><![CDATA[Mountain]]></title>
+			<tags><![CDATA[mountain white snow blue sky water green]]></tags>
+		</photo>
+		<photo id="6">
+			<title><![CDATA[Under]]></title>
+			<tags><![CDATA[umbrella wood sky blue]]></tags>
+		</photo>
+		<photo id="7">
+			<title><![CDATA[On the beach]]></title>
+			<tags><![CDATA[sand umbrella beach chaise longue wood, blue sky]]></tags>
+		</photo>
+		<photo id="8">
+			<title><![CDATA[Bike ride]]></title>
+			<tags><![CDATA[bikes tarmac child sky parent backpack blue red pink]]></tags>
+		</photo>
+		<photo id="9">
+			<title><![CDATA[Old Bus]]></title>
+			<tags><![CDATA[old bus yellow white orange]]></tags>
+		</photo>
+		<photo id="10">
+			<title><![CDATA[Bells]]></title>
+			<tags><![CDATA[bell white wall blue sky]]></tags>
+		</photo>
+		<photo id="11">
+			<title><![CDATA[Boats]]></title>
+			<tags><![CDATA[white boat boats beach sand white sky]]></tags>
+		</photo>
+		<photo id="12">
+			<title><![CDATA[Dinner]]></title>
+			<tags><![CDATA[dinner table glasses umbrella umbrellas blue towel fork plate]]></tags>
+		</photo>
+		<photo id="13">
+			<title><![CDATA[Clear water]]></title>
+			<tags><![CDATA[beach sand clear water white blue sky]]></tags>
+		</photo>
+		<photo id="14">
+			<title><![CDATA[Pool]]></title>
+			<tags><![CDATA[pool palmtree palmtrees hotel chaise longues longue sky]]></tags>
+		</photo>
+		<photo id="15">
+			<title><![CDATA[Sunset]]></title>
+			<tags><![CDATA[sunset backlit woman shadow orange sea sky]]></tags>
+		</photo>
+		<photo id="16">
+			<title><![CDATA[On the pool]]></title>
+			<tags><![CDATA[pool umbrella umbrellas water sky blue white palmtree palmtrees]]></tags>
+		</photo>
+	</photos>
+</app>

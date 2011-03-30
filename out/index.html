@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">	
+    <head>
+        <title>Unit9 — Image Gallery</title>
+        <meta name="google" value="notranslate" />         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css" media="screen"> 
+			html, body	{ width:100%; height:100%; }
+			body { margin:0; padding:0; overflow:auto; text-align:center; background: url(assets/photos/layout/bg.jpg) #333; }   
+			object:focus { outline:none; }
+			#flashContent { display:none; }
+        </style>		
+        <script type="text/javascript" src="assets/scripts/swfobject.js"></script>
+        <script type="text/javascript">
+            var swfVersionStr = "9.0.0";
+            var xiSwfUrlStr = "assets/flash/playerProductInstall.swf";
+            var flashvars = {};
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#333333";
+            params.allowscriptaccess = "sameDomain";
+            params.allowfullscreen = "true";
+			params.wmode = "transparent";
+			//params.base = "assets/flash/";
+            var attributes = {};
+            attributes.id = "Gallery";
+            attributes.name = "Gallery";
+            attributes.align = "middle";
+			//attributes.base = "assets/flash/";
+
+            swfobject.embedSWF("assets/flash/main.swf", "flashContent", "100%", "100%", swfVersionStr, xiSwfUrlStr, flashvars, params, attributes);
+			swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+        </script>
+    </head>
+    <body>
+		<div id="flashContent">
+        	<p>
+	        	To view this page ensure that Adobe Flash Player version 
+				9.0.0 or greater is installed. 
+			</p>
+			<script type="text/javascript"> 
+				var pageHost = ((document.location.protocol == "https:") ? "https://" :	"http://"); 
+				document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='"+ pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
+			</script> 
+        </div>	   	
+       	<noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900" height="600" id="Looper">
+                <param name="movie" value="assets/flash/main.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#333333" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+				<param name="wmode" value="transparent" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="assets/flash/main.swf" width="1000" height="600">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#333333" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="true" />
+					<param name="wmode" value="transparent" />
+                <!--<![endif]-->
+                <!--[if gte IE 6]>-->
+                	<p> 
+                		Either scripts and active content are not permitted to run or Adobe Flash Player version
+                		9.0.0 or greater is not installed.
+                	</p>
+                <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+	    </noscript>		
+   </body>
+</html>
