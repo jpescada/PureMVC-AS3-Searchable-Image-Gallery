@@ -1,6 +1,9 @@
 Working demo:
 http://demo.joaopescada.com/searchable-image-gallery/
 
+Blog post explaining the logic:
+http://blog.joaopescada.com/article/photo-search-with-puremvc-in-as3/
+
 External libraries used and included in this app:
 - PureMVC (http://puremvc.org/)
 - TweenLite (http://www.greensock.com/tweenlite/)
